@@ -1,0 +1,6 @@
+{
+  "name": "English Pronoun Master (Gymnasium 1)",
+  "description": "Eindeloos oefenen met Engelse personal pronouns en possessive pronouns met meer dan 500 eenduidige gapfill zinnen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

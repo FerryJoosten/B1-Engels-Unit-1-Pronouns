@@ -1,0 +1,447 @@
+import { SentenceItem } from '../types';
+
+export const personalPronounSentences: SentenceItem[] = [
+  // Subject Pronouns: I, you, he, she, it, we, they
+  {
+    id: 'pers_1',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Hello!',
+    afterGap: 'am Tom and I am twelve years old.',
+    correctAnswer: 'I',
+    dutchHint: '(ik)',
+    explanation: "'I' staat vóór de persoonsvorm 'am'.",
+    options: ['I', 'me', 'my', 'mine']
+  },
+  {
+    id: 'pers_2',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Look at Liam.',
+    afterGap: 'is playing with a ball in the schoolyard.',
+    correctAnswer: 'He',
+    dutchHint: '(hij)',
+    explanation: "'He' verwijst naar Liam (jongen/man).",
+    options: ['He', 'Him', 'His', 'They']
+  },
+  {
+    id: 'pers_3',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Where is Sophie?',
+    afterGap: 'is in the classroom.',
+    correctAnswer: 'She',
+    dutchHint: '(zij - enkelvoud)',
+    explanation: "'She' verwijst naar Sophie (meisje/vrouw).",
+    options: ['She', 'Her', 'Hers', 'They']
+  },
+  {
+    id: 'pers_4',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Where is my pen?',
+    afterGap: 'is on the desk.',
+    correctAnswer: 'It',
+    dutchHint: '(het)',
+    explanation: "'It' gebruik je voor een ding of dier (de pen).",
+    options: ['It', 'Its', 'He', 'They']
+  },
+  {
+    id: 'pers_5',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Lucas and I are friends.',
+    afterGap: 'ride our bikes to school together.',
+    correctAnswer: 'We',
+    dutchHint: '(wij)',
+    explanation: "'We' verwijst naar Lucas en mij samen (wij).",
+    options: ['We', 'Us', 'Our', 'They']
+  },
+  {
+    id: 'pers_6',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Look at Sam and Ben.',
+    afterGap: 'are eating an apple.',
+    correctAnswer: 'They',
+    dutchHint: '(zij - meervoud)',
+    explanation: "'They' verwijst naar meerdere personen (Sam & Ben).",
+    options: ['They', 'Them', 'Their', 'We']
+  },
+  {
+    id: 'pers_7',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Can',
+    afterGap: 'help me with this word, please?',
+    correctAnswer: 'you',
+    dutchHint: '(jij)',
+    explanation: "'You' is het onderwerp in de vraag 'Can you...?'.",
+    options: ['you', 'your', 'yours', 'he']
+  },
+  {
+    id: 'pers_8',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Every morning',
+    afterGap: 'walk to school with my dog.',
+    correctAnswer: 'I',
+    dutchHint: '(ik)',
+    explanation: "'I' is het onderwerp van de zin (ik).",
+    options: ['I', 'me', 'my', 'mine']
+  },
+  {
+    id: 'pers_9',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'David is not at home;',
+    afterGap: 'is at school.',
+    correctAnswer: 'he',
+    dutchHint: '(hij)',
+    explanation: "'He' verwijst naar David (hij).",
+    options: ['he', 'him', 'his', 'they']
+  },
+  {
+    id: 'pers_10',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Lisa is very happy because',
+    afterGap: 'has a new bicycle.',
+    correctAnswer: 'she',
+    dutchHint: '(zij - enkelvoud)',
+    explanation: "'She' verwijst naar Lisa (zij).",
+    options: ['she', 'her', 'hers', 'they']
+  },
+  {
+    id: 'pers_11',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Look at that cat.',
+    afterGap: 'is sleeping under the chair.',
+    correctAnswer: 'It',
+    dutchHint: '(het)',
+    explanation: "'It' gebruik je voor het dier (de kat).",
+    options: ['It', 'Its', 'He', 'They']
+  },
+  {
+    id: 'pers_12',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'My sister and I like music.',
+    afterGap: 'sing together in class.',
+    correctAnswer: 'We',
+    dutchHint: '(wij)',
+    explanation: "'We' verwijst naar 'my sister and I' (wij).",
+    options: ['We', 'Us', 'Our', 'They']
+  },
+  {
+    id: 'pers_13',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Where are the boys?',
+    afterGap: 'are playing football in the park.',
+    correctAnswer: 'They',
+    dutchHint: '(zij - meervoud)',
+    explanation: "'They' verwijst naar 'the boys' (meervoud).",
+    options: ['They', 'Them', 'Their', 'We']
+  },
+  {
+    id: 'pers_14',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Are',
+    afterGap: 'in class 1A, Jack?',
+    correctAnswer: 'you',
+    dutchHint: '(jij)',
+    explanation: "'You' is het onderwerp in de vraag 'Are you...?'.",
+    options: ['you', 'your', 'yours', 'he']
+  },
+  {
+    id: 'pers_15',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'This is Victor.',
+    afterGap: 'is my new classmate.',
+    correctAnswer: 'He',
+    dutchHint: '(hij)',
+    explanation: "'He' verwijst naar Victor.",
+    options: ['He', 'Him', 'His', 'They']
+  },
+  {
+    id: 'pers_16',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'This is Anna.',
+    afterGap: 'likes reading English books.',
+    correctAnswer: 'She',
+    dutchHint: '(zij - enkelvoud)',
+    explanation: "'She' verwijst naar Anna.",
+    options: ['She', 'Her', 'Hers', 'They']
+  },
+  {
+    id: 'pers_17',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'I have a new ruler.',
+    afterGap: 'is blue and long.',
+    correctAnswer: 'It',
+    dutchHint: '(het)',
+    explanation: "'It' verwijst naar de liniaal ('the ruler').",
+    options: ['It', 'Its', 'He', 'They']
+  },
+  {
+    id: 'pers_18',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Bram and I are hungry.',
+    afterGap: 'want to eat our lunch.',
+    correctAnswer: 'We',
+    dutchHint: '(wij)',
+    explanation: "'We' (Bram and I).",
+    options: ['We', 'Us', 'Our', 'They']
+  },
+  {
+    id: 'pers_19',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'The students are quiet because',
+    afterGap: 'are listening to the teacher.',
+    correctAnswer: 'they',
+    dutchHint: '(zij - meervoud)',
+    explanation: "'They' verwijst naar 'the students'.",
+    options: ['they', 'them', 'their', 'we']
+  },
+  {
+    id: 'pers_20',
+    category: 'personal',
+    subtype: 'personal_subject',
+    beforeGap: 'Do',
+    afterGap: 'have a red pencil, Emma?',
+    correctAnswer: 'you',
+    dutchHint: '(jij)',
+    explanation: "'You' in de vraag 'Do you have...?'.",
+    options: ['you', 'your', 'yours', 'she']
+  },
+
+  // Object Pronouns: me, you, him, her, it, us, them
+  {
+    id: 'pers_21',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'I am right here! Look at',
+    afterGap: '.',
+    correctAnswer: 'me',
+    dutchHint: '(mij)',
+    explanation: "'Me' staat na het voorzetsel 'at' en verwijst naar 'I'.",
+    options: ['me', 'I', 'my', 'mine']
+  },
+  {
+    id: 'pers_22',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Can you give',
+    afterGap: 'that pencil, please? I need to write.',
+    correctAnswer: 'me',
+    dutchHint: '(mij)',
+    explanation: "'Me' is het meewerkend voorwerp na 'give'.",
+    options: ['me', 'I', 'my', 'mine']
+  },
+  {
+    id: 'pers_23',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Tom is nice. I sit next to',
+    afterGap: 'in class.',
+    correctAnswer: 'him',
+    dutchHint: '(hem)',
+    explanation: "'Him' staat na het voorzetsel 'next to' voor Tom.",
+    options: ['him', 'he', 'his', 'they']
+  },
+  {
+    id: 'pers_24',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Peter needs help. Can you help',
+    afterGap: '?',
+    correctAnswer: 'him',
+    dutchHint: '(hem)',
+    explanation: "'Him' is het lijdend voorwerp na het werkwoord 'help'.",
+    options: ['him', 'he', 'his', 'they']
+  },
+  {
+    id: 'pers_25',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'I like Sophie. I play with',
+    afterGap: 'every day.',
+    correctAnswer: 'her',
+    dutchHint: '(haar)',
+    explanation: "'Her' staat na het voorzetsel 'with' en verwijst naar Sophie.",
+    options: ['her', 'she', 'hers', 'them']
+  },
+  {
+    id: 'pers_26',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'This apple is for Emma. Give it to',
+    afterGap: '.',
+    correctAnswer: 'her',
+    dutchHint: '(haar)',
+    explanation: "'Her' staat na het voorzetsel 'to'.",
+    options: ['her', 'she', 'hers', 'them']
+  },
+  {
+    id: 'pers_27',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'I have a new book. Do you want to read',
+    afterGap: '?',
+    correctAnswer: 'it',
+    dutchHint: '(het)',
+    explanation: "'It' is het lijdend voorwerp voor het boek ('the book').",
+    options: ['it', 'its', 'him', 'them']
+  },
+  {
+    id: 'pers_28',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Here is your school bag. Take',
+    afterGap: 'with you.',
+    correctAnswer: 'it',
+    dutchHint: '(het)',
+    explanation: "'It' verwijst naar de schooltas.",
+    options: ['it', 'its', 'him', 'them']
+  },
+  {
+    id: 'pers_29',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'We are in the garden. Come and play with',
+    afterGap: '!',
+    correctAnswer: 'us',
+    dutchHint: '(ons)',
+    explanation: "'Us' staat na 'with' en verwijst naar 'we' (ons).",
+    options: ['us', 'we', 'our', 'them']
+  },
+  {
+    id: 'pers_30',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'The teacher is talking to',
+    afterGap: '; we must listen carefully.',
+    correctAnswer: 'us',
+    dutchHint: '(ons)',
+    explanation: "'Us' staat na het voorzetsel 'to' voor 'we'.",
+    options: ['us', 'we', 'our', 'theirs']
+  },
+  {
+    id: 'pers_31',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Where are my pencils? I cannot find',
+    afterGap: '.',
+    correctAnswer: 'them',
+    dutchHint: '(ze/hen)',
+    explanation: "'Them' is het meervoudig voorwerp voor 'my pencils'.",
+    options: ['them', 'they', 'their', 'us']
+  },
+  {
+    id: 'pers_32',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Look at the birds. I like',
+    afterGap: 'very much.',
+    correctAnswer: 'them',
+    dutchHint: '(ze)',
+    explanation: "'Them' verwijst naar 'the birds' (meervoud).",
+    options: ['them', 'they', 'their', 'it']
+  },
+  {
+    id: 'pers_33',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'I see',
+    afterGap: ', David! You are behind the door.',
+    correctAnswer: 'you',
+    dutchHint: '(jou)',
+    explanation: "'You' is het lijdend voorwerp (jou).",
+    options: ['you', 'your', 'yours', 'he']
+  },
+  {
+    id: 'pers_34',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'I want to ask',
+    afterGap: 'a question, Lisa.',
+    correctAnswer: 'you',
+    dutchHint: '(jou)',
+    explanation: "'You' is het voorwerp na 'ask'.",
+    options: ['you', 'your', 'yours', 'her']
+  },
+  {
+    id: 'pers_35',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Listen to',
+    afterGap: ', class! Open your books.',
+    correctAnswer: 'me',
+    dutchHint: '(mij)',
+    explanation: "'Me' staat na 'listen to'.",
+    options: ['me', 'I', 'my', 'mine']
+  },
+  {
+    id: 'pers_36',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Lucas lost his eraser. Give this one to',
+    afterGap: '.',
+    correctAnswer: 'him',
+    dutchHint: '(hem)',
+    explanation: "'Him' voor Lucas.",
+    options: ['him', 'he', 'his', 'they']
+  },
+  {
+    id: 'pers_37',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Charlotte is nice. I like',
+    afterGap: 'a lot.',
+    correctAnswer: 'her',
+    dutchHint: '(haar)',
+    explanation: "'Her' voor Charlotte.",
+    options: ['her', 'she', 'hers', 'them']
+  },
+  {
+    id: 'pers_38',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'This puppy is cute. I want to pet',
+    afterGap: '.',
+    correctAnswer: 'it',
+    dutchHint: '(het)',
+    explanation: "'It' voor de puppy.",
+    options: ['it', 'its', 'him', 'them']
+  },
+  {
+    id: 'pers_39',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'We have no ball. Can you give one to',
+    afterGap: '?',
+    correctAnswer: 'us',
+    dutchHint: '(ons)',
+    explanation: "'Us' voor 'we'.",
+    options: ['us', 'we', 'our', 'them']
+  },
+  {
+    id: 'pers_40',
+    category: 'personal',
+    subtype: 'personal_object',
+    beforeGap: 'Sam and Ben are calling. Answer',
+    afterGap: ', please.',
+    correctAnswer: 'them',
+    dutchHint: '(hen/ze)',
+    explanation: "'Them' voor Sam and Ben.",
+    options: ['them', 'they', 'their', 'we']
+  }
+];
